@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 41, 41);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+strong {
+  color: rgb(255, 225, 0);
+}
+.first{
+  border: 1px salmon solid;
+  padding: 10px;
+}
+.box_fordb {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px salmon solid;
+}
+.lab_birthday {
+  margin: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#birthday {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+mark{
+  padding: 5px;
+}
+.box_container_3 {
+    margin: 10px;
+      padding: 10px;
+    
+      border: 1px salmon solid;
+}
+#status{
+margin: 10px;
+}
